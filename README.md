@@ -60,7 +60,7 @@ google drive - https://drive.google.com/drive/folders/1Is1209182iO91kGnJvgidP3al
         
         spring.http.encoding.force=true
 
-        ============================================================
+        ========================================================================================================================
         
         spring.datasource.url=jdbc:mysql://localhost:3306/patipha_springboot?characterEncoding=utf-8
         spring.datasource.username=root
@@ -69,6 +69,7 @@ google drive - https://drive.google.com/drive/folders/1Is1209182iO91kGnJvgidP3al
 
 <h1>Application Env</h1> 
 สร้างไฟล์ .env ใน directory resources (ใน Eclipse จะไม่แสดงไฟล์ .env) ถ้าอยากแก้ให้ไปแก้ที่ Root directory ของเครื่อง ประกาศตัวแปรที่จะเก็บข้อมูล
+
         
         DATABASE_SERVER=10.199.22.999999:3306
         DATABASE_USER=root
