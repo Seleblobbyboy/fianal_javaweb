@@ -2,10 +2,7 @@
 
 เว็บสร้างโปรเจค https://start.spring.io/
 
-
-
-
-
+drive - https://drive.google.com/file/d/1bnNF_QQFdMDPkGwqbvCUGYriOeom8NMF/view?usp=sharing
 
 chat - https://gen.ai.kku.ac.th/chat
 
