@@ -9,7 +9,7 @@
 
 chat - https://gen.ai.kku.ac.th/chat
 
-<h1>plugin Spring</h1>
+<h1>Plugin Spring</h1>
         
         Spring Web
         Spring Boot DevTools
