@@ -28,8 +28,6 @@
 <h1>Application Properties</h1>        
 
         spring.application.name=final
-        
-        
         spring.mvc.view.prefix=/jsp/
         spring.mvc.view.suffix=.jsp
         spring.datasource.url = jdbc:mysql://${DATABASE_SERVER}/${DATABASE_NAME}?characterEncoding=utf-8
@@ -46,6 +44,12 @@
         spring.http.encoding.enabled=true
         
         spring.http.encoding.force=true
+
+        ============================================================
+        
+        spring.datasource.url=jdbc:mysql://localhost:3306/patipha_springboot?characterEncoding=utf-8
+        spring.datasource.username=root
+        spring.datasource.password=
 
 
 <h1>Application Env</h1> 
