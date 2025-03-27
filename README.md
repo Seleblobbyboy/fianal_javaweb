@@ -4,7 +4,7 @@
 
 
 
-google drive - https://drive.google.com/drive/folders/1Is1209182iO91kGnJvgidP3alCL1l8Xf?usp=sharing
+
 
 
 chat - https://gen.ai.kku.ac.th/chat
