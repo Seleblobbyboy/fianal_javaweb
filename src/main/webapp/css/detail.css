@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+
+* {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-optical-sizing: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111;
+    color: white;
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin:0 10px;
+}
+a.delete{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: red!important;
+    text-decoration: none;
+}
+.menu  a{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.show{
+    display: flex;
+}
+.show ul{
+    display: flex;
+    list-style: none;
+}
+.show li{
+    margin: 10px;
+}
+.nameCartoon{
+   text-align: center;
+}
+.author{
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+}
+.love{
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+}
+.love p{
+    margin: 0 10px;
+}
+.comment{
+    display: flex ;
+}
+.comment form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.comment form input[type="text"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.comment form textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    height: 200px;
+    resize: none;
+
+}
+
+.comment form label{
+    margin:0 10px;
+
+}
+.comment form input[type="submit"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin:10px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+}
+
+.comment form input[type="text"]:focus{
+    outline: 0;
+    border: 1px solid #0d6efd;
+   
+}
+.comment form textarea:focus{
+    outline: 0;
+    border: 1px solid #0d6efd;
+    
+
+}
+.comment{
+    background-color: #cccc;
+    padding: 10px;
+}
+.comment-user{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+}
+.porfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.porfile i{
+    font-size: 40px;
+}
+.group{
+    margin:0 20px ;
+}
+.detail-content{
+    display: flex;
+    height: 500px;
+    padding: 10px;
+    overflow: auto;
+}
+.show-comment{
+    background-color: #cccc;
+    padding: 10px 0;
+
+}
+.show-comment h1{
+    margin: 10px;
+}

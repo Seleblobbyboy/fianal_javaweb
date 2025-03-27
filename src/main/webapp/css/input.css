@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+
+* {
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-optical-sizing: auto; 
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111;
+    color: white;
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu  a{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.show{
+    display: flex;
+}
+.show ul{
+    display: flex;
+    list-style: none;
+}
+.show li{
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="submit"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin:10px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+}
+form input[type="text"]{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+form input[type="text"]:focus{
+    outline: 0;
+    border: 1px solid #0d6efd;
+   
+}
+h1{
+    text-align: center;
+}
