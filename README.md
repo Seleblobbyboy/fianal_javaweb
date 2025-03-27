@@ -2,7 +2,17 @@
 
 เว็บสร้างโปรเจค https://start.spring.io/
 
+
+
 google drive - https://drive.google.com/drive/folders/1Is1209182iO91kGnJvgidP3alCL1l8Xf?usp=sharing
+
+<h1>Pugin Spring</h1>
+        
+        Spring Web
+        Spring Boot DevTools
+        Spring Data JP
+        MySQL Driver 
+        
 <h1>Dependency</h1>
 
 
